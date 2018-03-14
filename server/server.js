@@ -6,6 +6,7 @@ const bundleRouter = require('./routes/bundleRouter.js');
 
 const app = express();
 
+
 app.use(morgan('dev'));
 app.get('/', (req, res) => {
   res.redirect('/restaurants/ChIJUcXYWWGAhYARmjMY2bJAG2s/');
